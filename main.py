@@ -29,7 +29,7 @@ async def echo(message: types.Message):
 @dp.message(Command("user"))
 async def echo(message: types.Message):
 
-    await message.answer("Вы пользователь №1. Спасибо тебе!")
+    await message.answer("Вы пользователь №1. Спасибо вам!")
 
 #Обработчик всех сообщений
 @dp.message()
